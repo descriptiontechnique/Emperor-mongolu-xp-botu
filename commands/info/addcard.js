@@ -7,8 +7,8 @@ mongoose.connect(botConfig.dbLink, {
 
 var Cards = require('../../model/card.js')
 module.exports = {
-    name: "card",
-    aliases: ["cards", "rankcards", "changeCards", "newcards"],
+    name: "kart",
+    aliases: ["emperor", "of", "developer", "kart-değiştir"],
     category: "info",
     description: "give you the possibility to change your card background!",
     usage: "<link> | <info>",
